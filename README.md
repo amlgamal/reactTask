@@ -1,16 +1,82 @@
-# React + Vite
+A React-based educational project that simulates a small e-commerce system with product listing, filtering, cart management, and admin dashboard functionalities.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was built to practice React fundamentals, routing, state management, and CRUD operations in frontend applications.
 
-Currently, two official plugins are available:
+✨ Features
+🏠 Home Page (Products)
+Displays a list of products fetched from a mock/auth server (stored in a local db file)
+📂 Filter products by category
+📄 Pagination support for better UX
+🛒 Add products to cart
+Cart icon in navbar reflects current cart items
+🛍️ Cart Page
+View all added products
+➕ Increase product quantity
+➖ Decrease product quantity
+🔄 Reset/clear entire cart
+Dynamic updates synced with navbar cart state
+⚙️ Admin Dashboard
+View all products
+➕ Add new product via a form (name, category, price)
+✏️ Edit existing products (same form, populated with product data via route params)
+🗑️ Delete products
+Navigation handled using React Router
+🧠 Concepts Practiced
+React Functional Components
+React Hooks:
+useState
+useEffect
+React Router (navigation + params handling)
+Props drilling & state sharing
+CRUD operations in frontend
+Component reusability
+Basic state management for cart system
+🧱 Tech Stack
+React.js
+React Router DOM
+JavaScript (ES6+)
+Tailwind
+Mock API / Local DB file
+📁 Project Structure (Simplified)
+src/
+│── components/
+|      |__ CartItem
+|      |__ Navbar
+│── pages/
+│     ├── Home
+│     ├── Cart
+│     ├── Admin
+│     ├── ProductForm
+│
+│── db/
+│── App.js
+│── index.js
+🚀 Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Clone the repo:
 
-## React Compiler
+git clone https://github.com/amlgamal/reactTask.git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Install dependencies:
 
-## Expanding the ESLint configuration
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Run the project:
+
+npm run dev
+
+App runs on:
+
+http://localhost:3000
+🎯 What I Learned
+
+How to build a mini e-commerce flow in React
+Managing shared state between components (cart system)
+Working with React Router for navigation and dynamic routes
+Handling CRUD operations in frontend-only apps
+Improving UI/UX with pagination and filtering
+
+👩‍💻 Author
+
+Aml Gamal
+GitHub: @amlgamal

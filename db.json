@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Large Burger",
+      "counter": 0,
+      "price": 150,
+      "isInCart": false,
+      "categoryId": 1
+    },
+    {
+      "name": "Large Fries",
+      "price": "1050",
+      "categoryId": 2,
+      "counter": 0,
+      "isInCart": false,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Meduim Burger",
+      "counter": 0,
+      "price": 150,
+      "isInCart": false,
+      "categoryId": 1
+    },
+    {
+      "id": "4",
+      "name": "Meduim Burger",
+      "counter": 0,
+      "price": 150,
+      "isInCart": false,
+      "categoryId": 1
+    },
+    {
+      "id": "5",
+      "name": "Meduim Fries",
+      "counter": 0,
+      "price": 100,
+      "isInCart": false,
+      "categoryId": 2
+    },
+    {
+      "id": "6",
+      "name": "Meduim Water",
+      "counter": 0,
+      "price": 10,
+      "isInCart": false,
+      "categoryId": 3
+    },
+    {
+      "id": "7",
+      "name": "Small Burger",
+      "counter": 0,
+      "price": 70,
+      "isInCart": false,
+      "categoryId": 1
+    },
+    {
+      "id": "8",
+      "name": "Small Fries",
+      "counter": 0,
+      "price": 39,
+      "isInCart": false,
+      "categoryId": 2
+    },
+    {
+      "id": "9",
+      "name": "Small Water",
+      "counter": 0,
+      "price": 5,
+      "isInCart": false,
+      "categoryId": 3
+    },
+    {
+      "name": "carrots ",
+      "price": "12",
+      "categoryId": 2,
+      "counter": 0,
+      "isInCart": false,
+      "id": "4LaYwgaO0B0"
+    },
+    {
+      "name": "sssss",
+      "price": "1212",
+      "categoryId": 1,
+      "counter": 0,
+      "isInCart": false,
+      "id": "654kKQbn9J0"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Burger"
+    },
+    {
+      "id": "2",
+      "name": "Fries"
+    },
+    {
+      "id": "3",
+      "name": "Water"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
